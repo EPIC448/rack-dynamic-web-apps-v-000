@@ -6,6 +6,11 @@ class Application
   num_2= kernel.rand(1..10)
   num_3 = kernel.rand(1..10)
 
+
+  resp.write "#{num_1}\n"
+  resp.write "#{num_2}\n"
+  resp.write "#{num_3}\n"
+
   if num_1==num_2 && num_2==num_3
     resp.write "You Win"
   else
