@@ -3,9 +3,9 @@ class Application
   def call(env)
     resp = Rack::Response.new
 
-  num_1 = kernel.rand(1..20)
-  num_2 = kernel.rand(1..20)
-  num_3 = kernel.rand(1..20)
+  num_1 = Kernel.rand(1..20)
+  num_2 = Kernel.rand(1..20)
+  num_3 = Kernel.rand(1..20)
 
 
 # the \n indicates it a new line.
