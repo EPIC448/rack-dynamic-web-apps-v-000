@@ -12,6 +12,6 @@ class Application
     resp.write "You Lose"
   end
 
-  resp.finish
+  resp.finish  # the app will not run without the finish.
   end
 end
